@@ -4,7 +4,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_cloud():
-    return jsonify({"message": "✅ Build executed with custom service account!"})
+    return jsonify({'message': 'Hello from Cloud Build!'})
+
 
 
 

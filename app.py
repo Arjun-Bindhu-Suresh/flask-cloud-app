@@ -4,7 +4,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_cloud():
-    return jsonify({'message': '🚀 Hello from Cloud Build!'})
+    return jsonify({'message': '✅ Cloud Build trigger working with GCS logs!'})
+
 
 
 if __name__ == '__main__':
